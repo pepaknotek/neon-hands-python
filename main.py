@@ -81,7 +81,7 @@ with HandLandmarker.create_from_options(options) as landmarker:
 
         # Neonový efekt
         if len(hands_data) >= 2:
-            draw_neon_visual(frame, hands_data[0][4], hands_data[1][4]) # Propojíme palec
+            draw_neon_visual(frame, hands_data[0][4], hands_data[1][4]) # Propojíme jednotlivé prsty
 
         cv2.imshow("Neon Hands - New Tasks API", frame)
         
